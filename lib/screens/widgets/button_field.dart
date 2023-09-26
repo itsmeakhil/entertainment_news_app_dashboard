@@ -23,7 +23,7 @@ class ButtonField extends StatelessWidget {
       style: ButtonStyle(
         backgroundColor: MaterialStateProperty.all(color),
         side: MaterialStateProperty.all(
-           BorderSide(color: adTextColor.withOpacity(0.5)),
+           BorderSide(color: adTextColor.withOpacity(0.2)),
         ),
       ),
       onPressed: () {
